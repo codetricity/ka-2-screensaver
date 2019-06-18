@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.task;
+package guide.theta360.bitmap.task;
 
 import android.os.AsyncTask;
-import guide.theta360.screensaver.network.HttpConnector;
-import guide.theta360.screensaver.network.HttpEventListener;
+import guide.theta360.bitmap.network.HttpConnector;
+import guide.theta360.bitmap.network.HttpEventListener;
 
 public class TakePictureTask extends AsyncTask<Void, Void, HttpConnector.ShootResult> {
     private Callback mCallback;

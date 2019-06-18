@@ -1,4 +1,6 @@
-# KA-2's Screensaver
+# KA-2's Bitmap Demo and Screensaver
+
+![Oppkey Logo](images/bitmap-screen.png)
 
 Example from this article:
 

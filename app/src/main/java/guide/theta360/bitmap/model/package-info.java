@@ -14,16 +14,7 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.model;
-
 /**
- * Indicates the rotation inertia
+ * Package that stores Android model
  */
-public enum RotateInertia {
-    /** none */
-    INERTIA_0,
-    /** weak */
-    INERTIA_50,
-    /** strong */
-    INERTIA_100,;
-}
+package guide.theta360.bitmap.model;

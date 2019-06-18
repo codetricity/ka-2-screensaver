@@ -14,7 +14,15 @@
  * limitations under the License.
  */
 
+package guide.theta360.bitmap.model;
+
 /**
- * Package storing Android HTTP communication program
+ * Image size type
  */
-package guide.theta360.screensaver.network;
+public enum ImageSize {
+    /** 2048x1024 */
+    IMAGE_SIZE_2048x1024,
+
+    /** 5376x2688 */
+    IMAGE_SIZE_5376x2688
+}

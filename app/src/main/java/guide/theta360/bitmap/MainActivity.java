@@ -14,14 +14,16 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver;
+package guide.theta360.bitmap;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
+import guide.theta360.bitmap.task.TakePictureTask;
+import guide.theta360.bitmap.task.TakePictureTask.Callback;
 
-import com.theta360.pluginapplication.R;
-
-import guide.theta360.screensaver.task.TakePictureTask;
+import guide.theta360.bitmap.R;
 
 import com.theta360.pluginlibrary.activity.PluginActivity;
 import com.theta360.pluginlibrary.callback.KeyCallback;
@@ -29,18 +31,18 @@ import com.theta360.pluginlibrary.receiver.KeyReceiver;
 import com.theta360.pluginlibrary.values.LedColor;
 import com.theta360.pluginlibrary.values.LedTarget;
 
-import guide.theta360.screensaver.oled.Oled;
+import guide.theta360.bitmap.oled.Oled;
 
 
 public class MainActivity extends PluginActivity {
-    private TakePictureTask.Callback mTakePictureTaskCallback = new TakePictureTask.Callback() {
+    private TakePictureTask.Callback mTakePictureTaskCallback = new Callback() {
         @Override
         public void onTakePicture(String fileUrl) {
 
         }
     };
 
-    //Z1固有Fnボタンのキーコード定義
+    //Z1-specific keycode
     private static final int KEYCODE_FUNCTION = 119;
 
     //onKeyUp()での長押し操作認識用
@@ -62,7 +64,7 @@ public class MainActivity extends PluginActivity {
     int dispWidth = 92;        //写真表示領域 幅
     int dispHeight = 24;        //写真表示領域 高さ
 
-    String srcFileName = "kuma7_192.jpg";
+    String srcFileName = "oppkey.jpg";
     int bitmapThresh = 92;     //表示画像の輝度閾値
     int srcX = 48;              //表示画像の開始点 x
     int srcY = 36;              //表示画像の開始点 y
