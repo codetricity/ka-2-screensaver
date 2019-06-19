@@ -64,7 +64,7 @@ public class MainActivity extends PluginActivity {
     int dispWidth = 92;        //写真表示領域 幅
     int dispHeight = 24;        //写真表示領域 高さ
 
-    String srcFileName = "oppkey.jpg";
+    String srcFileName = "kuma2.jpeg";
     int bitmapThresh = 92;     //表示画像の輝度閾値
     int srcX = 48;              //表示画像の開始点 x
     int srcY = 36;              //表示画像の開始点 y
