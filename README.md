@@ -28,3 +28,4 @@ Short press Wi-Fi and mode to adjust x, y, t values.
 
 Short press function to swap pixel values. 
 
+![increase Y](images/increase-y.jpg)
