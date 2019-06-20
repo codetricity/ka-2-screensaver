@@ -1,6 +1,6 @@
 # KA-2's Screensaver
 
-Example from this article:
+Examples from this article:
 
 https://qiita.com/KA-2/items/b16fd6adc6db7db0fb8e
 
