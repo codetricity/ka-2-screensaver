@@ -8,6 +8,7 @@ There are three branches:
 
 * master - screensaver
 * bitmap - for bitmap graphics
+* pingpong - for ping pong game
 
 ## Graphics Library
 
@@ -26,4 +27,7 @@ company logo example from JPG file.
 
 ## Ping Pong 
 
-Coming soon
+![ping pong 1](images/ping-pong-1.png)
+![ping pong 2](images/ping-pong-2.png)
+![ping pong 3](images/ping-pong-3.png)
+
