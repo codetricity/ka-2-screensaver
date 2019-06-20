@@ -17,4 +17,4 @@
 /**
  * Package storing Android HTTP communication program
  */
-package guide.theta360.screensaver.network;
+package guide.theta360.pingpong.network;

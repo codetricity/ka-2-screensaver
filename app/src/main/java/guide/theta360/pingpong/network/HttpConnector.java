@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.network;
+package guide.theta360.pingpong.network;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import guide.theta360.screensaver.model.ImageSize;
+import guide.theta360.pingpong.model.ImageSize;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;

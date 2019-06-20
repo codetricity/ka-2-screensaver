@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.model;
+package guide.theta360.pingpong.model;
 
 /**
  * Constant used by the program

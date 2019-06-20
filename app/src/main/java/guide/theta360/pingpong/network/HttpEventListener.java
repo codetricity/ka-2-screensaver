@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.network;
+package guide.theta360.pingpong.network;
 
 /**
  * HTTP communication event listener class

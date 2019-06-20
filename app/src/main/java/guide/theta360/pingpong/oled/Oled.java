@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package guide.theta360.screensaver.oled;
+package guide.theta360.pingpong.oled;
 
 import android.content.Context;
 import android.content.Intent;
